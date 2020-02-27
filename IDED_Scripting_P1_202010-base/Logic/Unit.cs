@@ -2,9 +2,13 @@
 {
     public class Unit
     {
-        public int BaseAtk { get; protected set; }
-        public int BaseDef { get; protected set; }
-        public int BaseSpd { get; protected set; }
+        private int baseAtk;
+        private int baseDef;
+        private int baseSpd;
+
+        public int BaseAtk { get => baseAtk; protected set => baseAtk = value; }
+        public int BaseDef { get => baseDef; protected set => baseDef = value; }
+        public int BaseSpd { get => baseSpd; protected set => baseSpd = value; }
 
         public int MoveRange { get; protected set; }
         public int AtkRange { get; protected set; }
