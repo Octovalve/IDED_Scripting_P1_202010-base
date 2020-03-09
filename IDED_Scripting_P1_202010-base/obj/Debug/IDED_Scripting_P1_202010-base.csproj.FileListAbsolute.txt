@@ -1,0 +1,6 @@
+C:\Users\Antonio\Desktop\IDED_Scripting_P1_202010-base-master\IDED_Scripting_P1_202010-base\bin\Debug\IDED_Scripting_P1_202010-base.exe.config
+C:\Users\Antonio\Desktop\IDED_Scripting_P1_202010-base-master\IDED_Scripting_P1_202010-base\bin\Debug\IDED_Scripting_P1_202010-base.exe
+C:\Users\Antonio\Desktop\IDED_Scripting_P1_202010-base-master\IDED_Scripting_P1_202010-base\bin\Debug\IDED_Scripting_P1_202010-base.pdb
+C:\Users\Antonio\Desktop\IDED_Scripting_P1_202010-base-master\IDED_Scripting_P1_202010-base\obj\Debug\IDED_Scripting_P1_202010-base.csprojAssemblyReference.cache
+C:\Users\Antonio\Desktop\IDED_Scripting_P1_202010-base-master\IDED_Scripting_P1_202010-base\obj\Debug\IDED_Scripting_P1_202010-base.exe
+C:\Users\Antonio\Desktop\IDED_Scripting_P1_202010-base-master\IDED_Scripting_P1_202010-base\obj\Debug\IDED_Scripting_P1_202010-base.pdb
