@@ -49,7 +49,8 @@
             if (BaseSpd < 0) BaseSpd = 0;
             if (MoveRange > 10) MoveRange = 10;
             if (MoveRange < 1) MoveRange = 1;
-        }  
+        }
+        public Unit() { }
 
         public Unit(EUnitClass _unitClass, int _atk, int _def, int _spd, int _moveRange)
         {

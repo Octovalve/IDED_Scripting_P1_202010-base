@@ -28,6 +28,10 @@
             {
                 _potential = 10;
             }
+            if(_potential <= 0)
+            {
+               _potential = 0;
+            }
             else { Potential = _potential; }
         }
 
@@ -36,18 +40,26 @@
             if(UnitClass == EUnitClass.Squire && newClass == EUnitClass.Soldier)
             {
                 UnitClass = newClass;
+                return true;
             }
             if (UnitClass == EUnitClass.Soldier && newClass == EUnitClass.Squire)
             {
                 UnitClass = newClass;
+                return true;
             }
             if (UnitClass == EUnitClass.Ranger && newClass == EUnitClass.Mage)
             {
                 UnitClass = newClass;
+                return true;
             }
             if (UnitClass == EUnitClass.Mage && newClass == EUnitClass.Ranger)
             {
                 UnitClass = newClass;
+                return true;
+            }
+            if(UnitClass == EUnitClass.Villager)
+            {
+                return false;
             }
             return false;
         }
